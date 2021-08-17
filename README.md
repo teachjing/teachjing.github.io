@@ -6,5 +6,5 @@ Keep checking back as I hope to add more!
 
 This cool desktop was built in React by blueedgetechno. Check it out here! https://github.com/blueedgetechno/windows11
 
-![pic1](./public/img/gallery1.png)
+![pic1](./img/gallery1.png)
 
