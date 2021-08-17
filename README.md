@@ -4,7 +4,7 @@ This project was made to have a nice interface with access to labs, demos, edito
 
 Keep checking back as I hope to add more!
 
-This cool desktop was built in React by blueedgetechno. Check it out here! https://github.com/blueedgetechno/windows11
+I am repurposing this cool desktop that was initially built in React by blueedgetechno. Check it out here! https://github.com/blueedgetechno/windows11
 
 ![pic1](./img/gallery1.png)
 
