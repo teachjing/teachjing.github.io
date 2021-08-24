@@ -1,0 +1,24 @@
+class RunKitEmbed extends HTMLElement {
+  constructor() {
+      super();
+      const wrapper = document.createElement('div')
+      wrapper.style = "margin: 20pt"
+
+      const source = this.textContent
+      this.textContent = ""
+      const tempCodePlaceholder = document.createElement('pre')
+      tempCodePlaceholder.textContent = "" //source
+
+      //https://runkit.com/docs/theme-maker/untilted-lkqteuneka0g
+      window.RunKit.createNotebook({
+          title: "This is a title",
+          element: wrapper,
+          theme: 'untilted-lkqteuneka0g',
+          source,
+          onLoad: () => tempCodePlaceholder.remove()
+      })
+      this.appendChild(wrapper)
+      this.appendChild(tempCodePlaceholder)
+  }
+}
+customElements.define('rk-embed', RunKitEmbed);
